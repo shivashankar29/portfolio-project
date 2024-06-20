@@ -7,7 +7,7 @@ function About() {
         <OnScrollTextReveal>
         <div className="profile" id="About">
         <div className="img-container">
-        <img src={myImage} />
+        <img src={myImage} alt="image"/>
         </div>
         <div className="profile-content">
         <h3>About <span>Me</span>.</h3>
