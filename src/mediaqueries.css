@@ -1,0 +1,124 @@
+
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+    position: fixed;
+  }
+
+  .nav .logo {
+    margin: 10px 0 0 10px;
+  }
+
+  .nav ul {
+    flex-direction: row;
+    width: 100%;
+    align-items: flex-start;
+    padding: 10px 0;
+  }
+
+  .nav li {
+    padding-right: 0;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav a {
+    padding: 10px;
+    display: block;
+  }
+
+  .hero h1 {
+    font-size: 30px;
+  }
+
+  .hero p {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .profile img {
+    height: 50%;
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  .profile {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+
+  .profile-content {
+    margin: 0;
+    text-align: center;
+  }
+
+  .profile h3 {
+    font-size: 30px;
+  }
+
+  .profile p {
+    font-size: 13px;
+    margin-left: 10px;
+  }
+
+  .tech {
+    font-size: 30px;
+  }
+
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .projects h3 {
+    margin: 50px 0 0 20px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .contact {
+    font-size: 30px;
+    margin-top: 100px;
+  }
+
+  .grids-contact {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  form,
+  input,
+  textarea {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .footer {
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .footer p {
+    font-size: 16px;
+  }
+
+  .icons {
+    justify-content: center;
+  }
+
+  .mail,
+  .git-hub,
+  .linkedin {
+    margin: 5px;
+  }
+}
