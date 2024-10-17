@@ -22,7 +22,7 @@ function Techstack() {
             <img src={Rlib} alt="logo" />
             <img src={jquery} alt="logo" />
             <img src={bootstrap} alt="logo" />
-            <img src=https://www.google.com/url?sa=i&url=https%3A%2F%2Flogos-world.net%2Fjava-logo%2F&psig=AOvVaw0BG8fAJxZMFYZ1G63rUyPn&ust=1729255415904000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCICskc24lYkDFQAAAAAdAAAAABAE alt="logo" />
+            <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Flogos-world.net%2Fjava-logo%2F&psig=AOvVaw0BG8fAJxZMFYZ1G63rUyPn&ust=1729255415904000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCICskc24lYkDFQAAAAAdAAAAABAE" alt="logo" />
             <UilGithub className="tech-github"/>
             <img src={vscode} alt="logo" />
             </div>
